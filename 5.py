@@ -13,3 +13,4 @@ def calculaMultaPeixes(pesoDosPeixes):
         
 
 calculaMultaPeixes(30)    
+calculaMultaPeixes(70)
