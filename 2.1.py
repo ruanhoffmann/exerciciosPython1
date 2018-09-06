@@ -5,9 +5,9 @@ def mascOuFem(letra):
     letra = letra.upper()
     if letra == 'F':
         print('Feminino')
-    if letra == 'M':
+    elif letra == 'M':
         print('Masculino')
-    if letra != 'M' and letra != 'F' :
+    else:
         print('Sexo invalido')
 letra = 'f'
 mascOuFem(letra)

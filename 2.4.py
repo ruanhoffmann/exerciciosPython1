@@ -8,7 +8,7 @@ Estudante 1: Média X
 Estudante 2: Média X
 ...
 """
-import functools
+from functools import reduce
 estudantes = {
     'victor': [10,9,3],
     'pedro': [10,10,10],
@@ -17,7 +17,7 @@ estudantes = {
 
 def media(estudante):
     for nome, nota in estudante.items():
-        print('Nome:',nome,' Media: ',functools.reduce(lambda x, y: x + y, nota) / len(nota))
+        print('Nome:',nome,' Media: ', reduce(lambda x, y: x + y, nota) / len(nota))
 
 
 media(estudantes)
