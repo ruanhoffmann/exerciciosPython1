@@ -1,3 +1,7 @@
+"""7) Implemente uma função que recebe uma data no formato dd/mm/aaaa
+ e retorna True/False se a mesma é uma data válida/inválida."""
+
+
 def validaData(dia, mes, ano):
     validador = False
     if (mes==1 or mes==3 or mes==5 or mes==7 or mes==8 or mes==10 or mes==12):
