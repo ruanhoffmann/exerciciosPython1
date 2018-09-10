@@ -12,7 +12,7 @@ from functools import reduce
 estudantes = {
     'victor': [10,9,3],
     'pedro': [10,10,10],
-    'risa': [2,1,0]
+    'risa': [10,1,8]
 }
 
 def media(estudante):
